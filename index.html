@@ -10,7 +10,7 @@
     <div class="wrapper">
         <div class="wrapper__content">
             <header class="header">
-                <div class="container header_container">
+                <div class="container header__container">
                     <a href="#" class="logo">
                         <img src="" alt="" class="logo__img">
                     </a>
@@ -28,7 +28,7 @@
                         </ul>
                     </nav>
                     <address class="contacts">
-                        <a href="tel:+78007003030" class="contacts__phone"></a> 8 800 700 30 30</a>
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                         <div class="contacts__info">График работы</div>
                     </address>
                 </div>
@@ -109,27 +109,31 @@
                             <div class="news__content">
                             <li class="news__item">
                                 <img src="" alt="" class="news__item-img">
-                                <div class="news__date">Декабрь 2022</div>
-                                <h5 class="news__title">Дешевые путевки на Новый Год!</h5>
-                                <div class="news__excerpt">Проведи новый год в Таиланде</div>
+                                <div class="news__item-content">
+                                    <div class="news__item-date">Декабрь 2022</div>
+                                    <h5 class="news__item-title">Дешевые путевки на Новый Год!</h5>
+                                    <div class="news__item-excerpt">Проведи новый год в Таиланде</div>
+                                </div>
                             </li>
                             <li class="news__item">
                                 <img src="" alt="" class="news__item-img">
-                                <div class="news__date">Декабрь 2022</div>
-                                <h5 class="news__title">Акция для серфингистов</h5>
-                                <div class="news__excerpt">В сезон больших волн скидка на путевку в Таиланд на остров серфингистов. Удачного пути!</div>
+                                <div class="news__item-content"></div>
+                                    <div class="news__item-date">Декабрь 2022</div>
+                                    <h5 class="news__item-title">Акция для серфингистов</h5>
+                                    <div class="news__item-excerpt">В сезон больших волн скидка на путевку в Таиланд на остров серфингистов. Удачного пути!</div>
+                               </div>
                             </li>
                         </div>
-                        <div class="news__pages">
-                            <div class="news__pages-text">Сраница 1 из 7</div>
-                              <ul class="news__pages-numbers">
-                                <li class="news__pages-number">1</li>
-                                <li class="news__pages-number">2</li>
-                                <li class="news__pages-number">3</li>
-                                <li class="news__pages-number">4</li>
-                                <li class="news__pages-number">5</li>
-                                <li class="news__pages-number">6</li>
-                                <li class="news__pages-number">7</li>
+                        <div class="paginator">
+                            <div class="paginator__text">Сраница 1 из 7</div>
+                              <ul class="page__list">
+                                <li class="page__list-number">1</li>
+                                <li class="page__list-number">2</li>
+                                <li class="page__list-number">3</li>
+                                <li class="page__list-number">4</li>
+                                <li class="page__list-number">5</li>
+                                <li class="page__list-number">6</li>
+                                <li class="page__list-number">7</li>
                               </ul>
                             </div>
                         </div>
@@ -141,9 +145,8 @@
                             <img src="" alt="" class="about__image-back">
                             <div class="about__content-main">
                                 <h2 class="title title--dark">О нас</h5>
-                                <img src="" alt="" class="about__image-front">
                                 <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-                                <a href="#" class="button button--dark">Смотреть</a>
+                                <a href="#" class="button">Смотреть</a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +154,7 @@
             </main>
         </div>
         <footer class="footer">
-            <div class="footer header_container">
+            <div class="footer header__container">
                 <a href="#" class="logo">
                     <img src="" alt="" class="logo__img">
                 </a>
@@ -168,7 +171,7 @@
                         </li>
                     </ul>
                 </nav>
-                    <ul class="social__list">
+                <ul class="social">
                         <li class="social__item">
                           <a href="#" class="social__link">
                             <img src="" alt="" class="social__item-img">
@@ -190,10 +193,10 @@
                             </a>
                         </li>
                     </ul>
-                <address class="contacts">
-                    <a href="tel:+78007003030" class="contacts__phone"></a> 8 800 700 30 30</a>
-                    <div class="contacts__info">График работы</div>
-                </address>
+                    <address class="contacts">
+                        <div class="contacts__text">Бесплатный звонок по России</div>                   
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    </address>
             </div>
           </footer>
     </div>
