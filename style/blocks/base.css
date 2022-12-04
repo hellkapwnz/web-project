@@ -77,7 +77,7 @@ img {
 }
 
 .wrapper__content--main {
-    background-image: url(/web-project/img/img1.png);
+    background-image: url(/img/1.jpg);
     background-repeat: no-repeat;
     
     
@@ -153,13 +153,18 @@ img {
 }
 
 .title--fire {
-    background: url(/web-project/img/flame.png) no-repeat;
-    background-position: 285px;
+    background: url(/img/flame.png) no-repeat;
+    background-position: right;
+    padding-right: 33px;
 
 }
 
 h2.title {
     margin-top: 52px;
+}
+
+h2.title--dark {
+    margin-top: auto;
 }
 
 .button {
@@ -180,4 +185,10 @@ h2.title {
     color: #F5170E;
     background: #fff;
     border: 1px solid #F5170E;
+}
+
+.maincontent {
+    padding-bottom: 52px;
+    background: url(/img/2.jpg) no-repeat;
+    background-position: bottom;
 }

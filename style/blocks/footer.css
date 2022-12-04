@@ -1,5 +1,7 @@
 
+
 .footer__container {
+    height: 160px;
     border-top: 1px solid #fFFFFF1A;  
 }
 
@@ -9,6 +11,7 @@
     font-size: 11px;
     line-height: 20px;
     color: #9A9A9A;   
+    text-align: right;
 }
 
 .footer__img {
@@ -16,7 +19,8 @@
 }
 
 .social {
-    padding-left: 274px;
+    vertical-align: middle;
+    margin-left: 200px;
 }
 
 .social__item {
