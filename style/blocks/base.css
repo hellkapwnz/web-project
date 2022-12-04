@@ -77,7 +77,7 @@ img {
 }
 
 .wrapper__content--main {
-    background-image: url(/img/1.jpg);
+    background-image: url(/webproject/img/1.jpg);
     background-repeat: no-repeat;
     
     
@@ -153,7 +153,7 @@ img {
 }
 
 .title--fire {
-    background: url(/img/flame.png) no-repeat;
+    background: url(/webproject/img/flame.png) no-repeat;
     background-position: right;
     padding-right: 33px;
 
@@ -189,6 +189,6 @@ h2.title--dark {
 
 .maincontent {
     padding-bottom: 52px;
-    background: url(/img/2.jpg) no-repeat;
+    background: url(/web-project/img/2.jpg) no-repeat;
     background-position: bottom;
 }
