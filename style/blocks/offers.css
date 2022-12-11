@@ -1,5 +1,5 @@
 .offers {
-    margin-top: 264px;
+    margin-top: 248px;
     height: 549px;
 }
 
@@ -12,9 +12,13 @@
     display: flex;
 }
 
+.offers__content {
+    padding-left: 25px;
+}
+
 .offers__item {
 
-    max-width: 359px;
+    max-width: 362px;
     margin-right: 27px;
     background-color: #FFF;
     height: 449px;
@@ -32,18 +36,17 @@ h5.offers__title {
     line-height: 33px;
     color: #000;
     margin-top: 33px;
-    margin-left: 22px;
+
 }
 
 .offers__features {
     display: flex;
-    margin-left: 28px;
     margin-top: 23px;
 }
 
 .offers__features-icon {
 
-    margin-right: 10px;
+    margin-right: 13px;
     vertical-align: middle;
 }
 
@@ -54,7 +57,7 @@ h5.offers__title {
     font-size: 16px;
     line-height: 26px;
     color: #666666;
-    margin-right: 28px;
+    margin-right: 37px;
 }
 
 .offers__text {
@@ -63,20 +66,22 @@ h5.offers__title {
     font-size: 14px;
     line-height: 21px;
     color: #303030;
-    margin-left: 22px;
+
     margin-top: 24px;
 }
 
 
-.button--light {
-    margin-left: 24px;
+.cardbutton--light {
+    color: #F5170E;
+    background: #fff;
+    border: 1px solid #F5170E;
     margin-top: 24px;
     width: 135px;
     height: 55px;
 }
 
-.button--dark {
-    margin-left: 24px;
+.cardbutton--dark {
+    
     margin-top: 24px;
     width: 135px;
     height: 55px;

@@ -1,8 +1,10 @@
 
 
 .footer__container {
-    height: 160px;
-    border-top: 1px solid #fFFFFF1A;  
+
+    border-top: 1px solid #fFFFFF1A; 
+    padding-top: 18px;
+ 
 }
 
 .contacts__text {
@@ -20,11 +22,11 @@
 
 .social {
     vertical-align: middle;
-    margin-left: 200px;
+    margin-left: 260px;
 }
 
 .social__item {
-    margin-right: 10px;   
+    margin-right: 5px;   
 }
 
 .social__item:last-child {

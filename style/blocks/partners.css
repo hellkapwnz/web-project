@@ -1,23 +1,32 @@
 .partners {
-    height: 573px;
     background: #F4F5F5;
 }
 
 .partners__container {
-    padding-top: 88px;
+    padding-top: 112px;
+    padding-bottom: 117px;
 }
 
-h2.title--dark {
+h5.title--dark {
     color: #1A1B1E;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 65px;    
+    font-size: 36px;
+    line-height: 65px;  
+    margin-top: -8px;  
 
 }
 
 ul.partners__list {
-    margin-top: 79px;
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.partners__list2 {
+    padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

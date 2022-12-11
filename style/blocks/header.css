@@ -1,3 +1,7 @@
 .header {
     height: 77px;
 }
+
+.contacts__phone {
+    display: block;
+}

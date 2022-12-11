@@ -1,6 +1,5 @@
 .hello__container {
-    height: 333px;
-    margin-top: 196px;
+    padding-top: 72px;
 }
 
 h1.hello__title {
@@ -9,6 +8,7 @@ h1.hello__title {
     font-weight: 700;
     font-size: 72px;
     line-height: 98px;
+    margin-bottom: 10px;
 }
 
 .hello__subtitle {
