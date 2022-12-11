@@ -1,0 +1,33 @@
+
+.footer__container {
+    border-top: 1px solid #fFFFFF1A;  
+}
+
+.contacts__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;   
+}
+
+.footer__img {
+    background-size: cover;
+}
+
+.social {
+    padding-left: 274px;
+}
+
+.social__item {
+    margin-right: 10px;   
+}
+
+.social__item:last-child {
+    margin-right: 0px;
+}
+
+.social__img {
+    width: 36px;
+}
+

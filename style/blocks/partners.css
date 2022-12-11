@@ -1,0 +1,26 @@
+.partners {
+    height: 573px;
+    background: #F4F5F5;
+}
+
+.partners__container {
+    padding-top: 88px;
+}
+
+h2.title--dark {
+    color: #1A1B1E;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;    
+
+}
+
+ul.partners__list {
+    margin-top: 79px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+

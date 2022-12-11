@@ -77,7 +77,7 @@ img {
 }
 
 .wrapper__content--main {
-    background-image: url(/img/1.jpg);
+    background-image: url(/img/img1.png);
     background-repeat: no-repeat;
     
     
@@ -154,17 +154,12 @@ img {
 
 .title--fire {
     background: url(/img/flame.png) no-repeat;
-    background-position: right;
-    padding-right: 33px;
+    background-position: 285px;
 
 }
 
 h2.title {
     margin-top: 52px;
-}
-
-h2.title--dark {
-    margin-top: auto;
 }
 
 .button {
@@ -186,37 +181,3 @@ h2.title--dark {
     background: #fff;
     border: 1px solid #F5170E;
 }
-
-.maincontent {
-    padding-bottom: 52px;
-    background: url(/img/2.jpg) no-repeat;
-    background-position: bottom;
-}
-
-.paginator {
-    display:flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
- }
- 
- 
- .page__list {
-     margin-left: 36px;
-     display: flex;
- }
-  
- .page__list-number {
-
-     width: 32px;
-     height: 32px;
-     line-height: 32px;
-     font-weight: 700;
- }
- 
- .page__list-number:hover {
-     background-color: white;
-     color: red;
-     border-radius: 16px;
- }
- 

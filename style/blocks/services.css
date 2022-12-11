@@ -1,0 +1,48 @@
+.services {
+    height: 833px;
+    background: #F2F2F2;
+    
+}
+
+h5.services__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color:#000  ;
+    margin-top: 15px;
+    margin-left: 57px;
+}
+
+.services__list {
+    margin-bottom: 70px;
+}
+
+.services__text {
+    color: #000;
+    margin-left: 56px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+margin-top: 28px;
+}
+
+.services__items {
+ 
+}
+
+.services__item {
+    margin-top: 49px;
+    display: flex;
+}
+
+.paginator__text--dark  {
+    color: #000;
+}
+
+.page__list--dark {
+    display: flex;
+    color: black;
+    margin-left: 36px;
+}
