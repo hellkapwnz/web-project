@@ -1,0 +1,36 @@
+.partners {
+    background: #f2f2f2;
+    padding-top: 78px;
+    padding-bottom: 84px;
+  }
+
+  .partners__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1A1B1E;
+  }
+  
+  .partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 250px;
+  }
+  .partners__item {
+    margin-right: 50px;
+  }
+  
+  .partners__link {
+    filter: grayscale(100%);
+  }
+  
+  .partners__link:hover {
+    filter: grayscale(0);
+  }
+  
+  .partners__item:nth-child(4n) {
+    margin-right: 0px;
+  }

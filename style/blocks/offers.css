@@ -1,0 +1,68 @@
+.offers {
+    margin-bottom: 130px;
+  }
+  
+  .title--fire {
+    margin-bottom: 55px;
+  }
+  
+  .offers__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .offers__item {
+    min-height: 449px;
+    background: #fff;
+    border-radius: 5px;
+    width: calc(100% / 3 - 18px);
+  }
+  
+  .offers__header {
+    min-height: 144px;
+    margin-bottom: 37px;
+  }
+  
+  .offers__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    margin-left: 20px;
+    margin-bottom: 23px;
+  }
+  
+  .offers__features {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+  }
+  
+  .offers__feature {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+  }
+  
+  .offers__feature-icon {
+    padding-right: 10px;
+  }
+  
+  .offer__feature-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    color: #666666;
+  }
+  
+  .offers__text {
+    width: 350px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.49em;
+    color: #303030;
+    padding-left: 21px;
+    margin-bottom: 24px;
+  }
