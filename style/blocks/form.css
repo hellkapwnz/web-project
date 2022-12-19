@@ -15,7 +15,12 @@
 }
 
 .form__input:hover {
-  border: 1px solid #F5170E;
+  border: 1px solid #1A1B1E;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #F5170E;
 }
 
 .form__input::placeholder {
