@@ -1,5 +1,10 @@
 .contacts__dropdown {
   position: relative;
+  color: #98A4A8;
+}
+
+.contacts__dropdown:hover {
+    color: #fff;
 }
 
 .contacts__dropdown:hover .contacts__menu {
