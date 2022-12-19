@@ -69,7 +69,7 @@ img {
 .wrapper__content-page {
   flex: 1;
   position: relative;
-  background: url("../../img/hello.png") center top no-repeat, url("../../img/about.png") center bottom 7px no-repeat;
+  background: url("/web-project/img/hello.png") center top no-repeat, url("/web-project/img/about.png") center bottom 7px no-repeat;
 }
 
 .container {
