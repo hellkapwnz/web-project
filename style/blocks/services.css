@@ -1,0 +1,36 @@
+.page-content {
+  background: #fff;
+  color: #303030;
+  padding: 99px 0;
+}
+
+.services {
+  margin-bottom: 66px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 47px;
+}
+
+.service:last-child{
+  margin-bottom: 0;
+}
+
+.service__img {
+  width: 41%;
+
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__desc {
+  min-width: 652px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7em;
+  margin-bottom: 34px;
+  padding-left: 49px;
+}

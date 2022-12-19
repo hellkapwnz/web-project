@@ -1,0 +1,67 @@
+.title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title--fire:after {
+  content: "";
+  background: url(/img/flame.png) no-repeat;
+  background-position: right;
+  padding-right: 33px;
+}
+
+.title--dark {
+  color: #000;
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.service__title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+  margin-top: 16px;
+  margin-bottom: 31px;
+  margin-left: 49px;
+}
+
+.inner-section__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #1a1b1e;
+  margin-bottom: 56px;
+}
+
+.page-title__reviews {
+  padding-bottom: 80px;
+}
+
+.review__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #1a1b1e;
+  margin-bottom: 12px;
+  line-height: 42px;
+}
+
+.separator__title {
+  font-size: 48px;
+  line-height: 64px;
+  white-space: pre-line;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.form__title {
+  margin-bottom: 66px;
+}
+
+.form__controls-title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1A1B1E;
+}

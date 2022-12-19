@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air-Asia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/main.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air-Asia | Услуги</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/main.css">
 </head>
+
 <body>
   <div class="wrapper services-wrapper">
     <section class="headline">
@@ -17,24 +19,30 @@
         <header class="header">
           <div class="container header__container">
             <a href="/" class="logo">
-              <img src="./img/logo.svg" alt="" class="logo__img">
+              <img src="./logo/logo.svg" alt="" class="logo__img">
             </a>
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="./index.html" class="menu__link">Главная</a>
+                  <a href="./main.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item menu__item--active">
                   <a href="./services.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
+                  <a href="./reviews.html" class="menu__link">Отзывы</a>
                 </li>
               </ul>
             </nav>
             <address class="contacts">
               <a href="tel:+78007003030" class="contact__phone">8 800 700 30 30</a>
-              <div class="contacts__dropdown-title">График работы</div>
+              <div class="contacts__dropdown">
+                <div class="contacts__dropdown-title">График работы</div>
+                <div class="contacts__menu">
+                  <div class="contacts__days">пн-вс: 09:00 - 20:00</div>
+                  <div class="contacts__dinner">Обед: 14:00-14:30</div>
+                </div>
+              </div>
             </address>
           </div>
         </header>
@@ -42,7 +50,7 @@
         <nav class="breadcrumbs">
           <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
-              <a href="./index.html" class="breadcrumbs__link">Главная</a>
+              <a href="./main.html" class="breadcrumbs__link">Главная</a>
             </li>
             <li class="breadcrumbs__item breadcrumbs__item--active">
               <a href="./services.html" class="breadcrumbs__link">Услуги</a>
@@ -52,7 +60,7 @@
       </div>
     </section>
     <main class="page-content">
-      <div class="container services__container">
+      <div class="container">
         <ul class="services">
           <li class="services__item service">
             <div class="service__img">
@@ -103,91 +111,91 @@
       </div>
   </div>
   </main>
-  <section class="partners">
-    <div class="container partners__container">
-      <h2 class="partners__title">Партнеры</h2>
-      <ul class="partners__list">
+  <section class="inner-section">
+    <div class="container">
+      <h2 class="inner-section__title">Партнеры</h2>
+      <ul class="partners">
         <li class="partners__item">
           <a href="#" class="partners__link">
-            <img src="./img/pobeda.png" alt="">
+            <img src="./img/partners/pobeda.png" alt="Победа">
           </a>
         </li>
         <li class="partners__item">
           <a href="#" class="partners__link">
-            <img src="./img/s7.png" alt="">
+            <img src="./img/partners/s7.png" alt="S7 Airlines">
           </a>
         </li>
         <li class="partners__item">
           <a href="#" class="partners__link">
-            <img src="./img/lets-fly.png" alt="">
+            <img src="./img/partners/lets-fly.png" alt="СлетатьРу">
           </a>
         </li>
         <li class="partners__item">
           <a href="#" class="partners__link">
-            <img src="./img/lufthansa.png" alt="">
+            <img src="./img/partners/lufthansa.png" alt="Lufthansa">
           </a>
         </li>
         <li class="partners__item">
           <a href="#" class="partners__link">
-            <img src="./img/airbaltic.png" alt="">
+            <img src="./img/partners/airbaltic.png" alt="Air Baltic">
           </a>
         </li>
         <li class="partners__item">
           <a href="#" class="partners__link">
-            <img src="./img/pegasus.png" alt="">
+            <img src="./img/partners/pegasus.png" alt="Pegasus">
           </a>
         </li>
         <li class="partners__item">
           <a href="#" class="partners__link">
-            <img src="./img/ural.png" alt="">
+            <img src="./img/partners/ural.png" alt="Ural Airlines">
           </a>
         </li>
         <li class="partners__item">
           <a href="#" class="partners__link">
-            <img src="./img/pegas.png" alt="">
+            <img src="./img/partners/pegas.png" alt="Pegas">
           </a>
       </ul>
     </div>
   </section>
   </div>
-  <footer class="footer">
-    <div class="container footer__container">
+  <footer class="footer footer__service">
+    <div class="container footer__container-serices">
       <div class="footer__col">
         <a href="./" class="logo">
-          <img src="./img/logo.svg" alt="" class="logo__img">
+          <img src="./logo/logo.svg" alt="" class="logo__img">
         </a>
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="./index.html" class="menu__link">Главная</a>
+              <a href="./main.html" class="menu__link">Главная</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item menu__item--active">
               <a href="./services.html" class="menu__link">Услуги</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
+              <a href="./reviews.html" class="menu__link">Отзывы</a>
             </li>
           </ul>
         </nav>
         <ul class="social">
           <li class="social__item social__item--tg">
             <a href="" class="social__link">
-              <img src="./img/icon/telegram.svg" alt="" class="social__icon">
+              <img src="./icon/telegram.svg" alt="" class="social__icon">
             </a>
           </li>
           <li class="social__item social__item--vk">
             <a href="" class="social__link">
-              <img src="./img/icon/vk.svg" alt="" class="social__icon">
+              <img src="./icon/vk.svg" alt="" class="social__icon">
             </a>
           </li>
           <li class="social__item social__item--fb">
             <a href="" class="social__link">
-              <img src="./img/icon/f.svg" alt="" class="social__icon">
+              <img src="./icon/f.svg" alt="" class="social__icon">
             </a>
           </li>
           <li class="social__item social__item--inst">
             <a href="" class="social__link">
-              <img src="./img/icon/in.svg" alt="" class="social__icon">
+              <img src="./icon/in.svg" alt="" class="social__icon">
             </a>
           </li>
         </ul>

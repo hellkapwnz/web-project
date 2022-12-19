@@ -1,0 +1,28 @@
+.hello {
+  margin-bottom: 251px;
+}
+
+.hello__container {
+  min-height: 408px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hello__text-section {
+  width: 45%;
+}
+
+.hello__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.37em;
+  margin-bottom: 27px;
+}
+
+.hello__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 34px;
+}

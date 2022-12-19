@@ -1,0 +1,24 @@
+.headline {
+  background: #001821 url("../../img/services.png") center center no-repeat;
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  
+}
+
+.headline__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-title {
+  padding-bottom: 58px;
+}
+
+.page-title__reviews {
+  padding-bottom: 80px;
+}
+

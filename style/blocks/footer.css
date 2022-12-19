@@ -1,0 +1,19 @@
+.footer {
+  margin-bottom: 20px;
+}
+
+.footer__container {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  padding-bottom: 8px;
+}
+
+.footer__service {
+  height: 132px;
+}
+

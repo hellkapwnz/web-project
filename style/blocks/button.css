@@ -1,0 +1,53 @@
+.button {
+  display: inline-block;
+  background: #F5170E;
+  color: #fff;
+  border: none;
+  border-radius: 35px;
+  padding: 18px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: #fff;
+	background: #da0100;
+  transition: .5s;
+}
+
+.offers__button--light {
+  padding: 17px 29px;
+  margin-left: 22px;
+  border: 1px solid #F5170E;
+  background: #fff;
+  color: #F5170E;
+}
+
+.button__service--light {
+  border: 1px solid #F5170E;
+  background: #fff;
+  color: #F5170E;
+  margin-left: 49px;
+}
+
+.button--color--grey {
+  background: #8E8E8E;
+  padding: 18px 44px;
+}
+
+.button--color--grey:hover {
+  background: #2B2B2B;
+}
+
+.welcome__btn {
+  padding: 18px 60px;
+  animation: fadeIn 3s; 
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
